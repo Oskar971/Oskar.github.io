@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <h1 id="overskrift"></h1>
+    </header>
+    <main>
+      <section id="upgrades">
+        <div class="container uppgrades">
+          <div class="boks">
+            <h2>+1 Miner cost: 10 diamond cost: 250 dollars</h2>
+            <button id="buyMiner">buy</button>
+            <h2>1 miner needs 1 fuel per 30s</h2>
+          </div>
+
+          <div class="boks">
+            <h2>5+Fuel cost: 15 diamonds</h2>
+            <button id="buyFuel">Do it ?</button>
+            <button
+              id="cliker"
+              onclick="document.getElementById('overskrift').style.color= 'red'"
+            >
+              dont press
+            </button>
+          </div>
+
+          <div class="boks">
+            <h2>1 💎 = 10 💵</h2>
+            <button id="convert">Bytt 1💎 → 10💵</button>
+          </div>
+
+          <div class="level">
+            <button id="lol">
+              <h3>💸Lv upp💸</h3>
+            </button>
+            <h2>500: diamonds 1000: dollar : +1 💎 vær gang</h2>
+          </div>
+        </div>
+      </section>
+
+      <section id="picture">
+        <div class="ore">
+          <img class="pic" src="Bilder/Diamond_block.png" alt="feil" />
+
+          <h2 class="info_tag">🤑MINE FOR MOENY🤑</h2>
+        </div>
+      </section>
+
+      <section id="mining">
+        <div class="income">
+          <div class="boks">
+            <h2 id="brensel">fuel left: 10 ⛽</h2>
+            <h2 id="diamant">diamonds: 10 💎</h2>
+            <h2 id="penger">Money : 10 💵</h2>
+          </div>
+
+          <img
+            id="pickaxe"
+            class="nick"
+            src="Bilder/Bedre pick klikker preview.png"
+            alt="wrong"
+          />
+        </div>
+      </section>
+    </main>
+    <script src="script.js"></script>
+  </body>
+</html>

@@ -1,0 +1,154 @@
+.container {
+  flex-direction: column;
+  justify-content: center;
+  align-items: stretch;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.container {
+  display: flex;
+
+  gap: 10px;
+  gap: 20px 10px;
+  row-gap: 10px;
+  column-gap: 20px;
+}
+
+#overskrift {
+  font-size: 100%;
+  color: #ffb804;
+}
+
+.boks {
+  background-color: white;
+  border: 5px solid #bb8e70;
+  border-radius: 10px;
+  padding: 20px;
+  /* width: 200px; */
+  text-align: center;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.2s ease;
+  gap: 2%;
+
+  width: 100%;
+  height: auto;
+  border-radius: 20px;
+  padding: 20px;
+}
+
+.level {
+  background-color: #00fb15;
+  border: 5px solid #b37d00;
+  border-radius: 10px;
+  padding: 20px;
+  /* width: 200px; */
+  text-align: center;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.2s ease;
+}
+
+h3 {
+  color: #b37d00;
+}
+
+#lol {
+  background-color: #ffb804;
+  border: none;
+  border-radius: 10px;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.income {
+  width: 80%;
+  height: auto;
+  border-radius: 55px;
+  padding: 20px;
+}
+
+main {
+  display: flex;
+  gap: 3%;
+}
+
+main > div {
+  flex-basis: 300px;
+  flex-grow: 1;
+}
+
+.pic {
+  width: 100%;
+  height: auto;
+  border-radius: 45px;
+  padding: 20px;
+}
+
+.nick {
+  width: 110%;
+  height: auto;
+  border-radius: 10px solid black;
+  padding: 1px;
+}
+
+.ore {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: stretch;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.info_tag {
+  display: flex;
+  justify-content: center;
+  align-items: stretch;
+  padding: 5px;
+  color: #40ff00;
+  width: 100%;
+  height: auto;
+}
+
+.ore {
+  display: flex;
+
+  gap: 10px;
+  gap: 20px 10px;
+  row-gap: 10px;
+  column-gap: 20px;
+}
+
+body {
+  width: min(100vw, calc(100vh * var(--aspect-ratio)));
+  height: min(100vh, calc(100vw / var(--aspect-ratio)));
+
+  background-image: linear-gradient(
+      to bottom,
+      rgba(255, 255, 255, 0),
+      rgba(0, 0, 0, 30%)
+    ),
+    url("../Bilder/bg-tiling-dark.svg");
+  background-repeat: no-repeat, repeat;
+  background-size: cover, auto;
+  animation: scrollBackground 120s linear infinite;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+@keyframes scrollBackground {
+  from {
+    background-position: 0 0;
+  }
+  to {
+    background-position: -200% 100%;
+  }
+}
