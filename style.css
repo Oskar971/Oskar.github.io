@@ -133,7 +133,7 @@ body {
       rgba(255, 255, 255, 0),
       rgba(0, 0, 0, 30%)
     ),
-    url("../Bilder/bg-tiling-dark.svg");
+    url("../bilder/bg-tiling-dark.svg");
   background-repeat: no-repeat, repeat;
   background-size: cover, auto;
   animation: scrollBackground 120s linear infinite;
